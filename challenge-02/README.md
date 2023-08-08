@@ -23,7 +23,7 @@ Crie uma função que adicione um valor à variável criada acima, e retorne a s
     O valor da variável agora é VALOR.
 Onde VALOR é o novo valor da variável.
 */
-function novoValor(variavel){
+function novoValor(){
   variavel = "CAUAN"
   return "O valor da variável agora é " + variavel
 }

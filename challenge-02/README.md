@@ -44,7 +44,7 @@ Crie uma função com as seguintes características:
 function multiplicacao(a, b, c){
   if (a && b && c){
     multi = a * b * c;
-    soma = multi + 5;
+    soma = multi + 2;
     return soma;
   } else {
     return "Preencha todos os valores corretamente!";

@@ -92,8 +92,8 @@ Agora `soma` é uma função. Mostre no console a soma de dois números, usando 
 console.log(soma(10, 20));
 
 /*
-Agora, declare algumas variáveis com os nomes `subtraction`, `multiplication`,
-`division` e `mod`, e atribua a elas a função `calculator`, passando o operador
+Agora, declare algumas variáveis com os nomes `subtracao`, `multiplicacao`,
+`divisao` e `mod`, e atribua a elas a função `calculator`, passando o operador
 correto por parâmetro para cada uma delas.
 */
 let subtracao = calculator('-');

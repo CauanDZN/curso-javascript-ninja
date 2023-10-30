@@ -55,6 +55,11 @@
   */
   console.log( '\nMeus amigos:' );
   let friends = ['João', 'Maria', 'Roberto', 'Pedro', 'Marcos'];
+  let phrase = friends.reduce(function(acumulado, atual, index) {
+    let separator = friends.length - 1 === index ? ' e ' : ', ';
+    return acumulado + separator + atual;
+  }).concat(' são meus amigos.');
+  console.log(phrase);
 
   /*
   Usando o replace(), faça a string "Roberto" virar "Roberta".
